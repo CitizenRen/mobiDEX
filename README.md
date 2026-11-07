@@ -108,12 +108,18 @@ Each third-party component remains under its own licence and copyright.
 
 - **Educational and personal use only.** mobiDEX is provided to explore and learn about the game's files.
 - **Not for commercial use.** Neither mobiDEX nor anything you export with it may be sold or used commercially. Anything you export remains CIG's property, and its use is governed by CIG's [Terms of Service](https://robertsspaceindustries.com/tos) and [End User Licence Agreement](https://robertsspaceindustries.com/eula), and CIG's fan content policy. You are responsible for following them.
-- **Don't use it to cheat** or to gain an unfair advantage in the game, and don't redistribute extracted game files.
+- **Don't use it to cheat** or to gain an unfair advantage in the game.
 - **No warranty.** mobiDEX is provided "as is", without warranty of any kind. The author is not liable for any damage or loss arising from its use.
 - **Closed source.** mobiDEX's source code is not public. This repository hosts releases and the issue tracker only. You may not decompile, modify or redistribute mobiDEX without permission.
 
 
 ---
+
+<p align="center">
+  <picture>
+    <img src="assets/MadeByTheCommunity.png" alt="MadeByTheCommunity logo" width="120">
+  </picture>
+</p>
 
 <p align="center">
   New to Star Citizen? Enlist with referral code
