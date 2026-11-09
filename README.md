@@ -2,11 +2,11 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-light.png">
     <source media="(prefers-color-scheme: light)" srcset="assets/logo-dark.png">
-    <img src="assets/logo-dark.png" alt="mobiDEX logo" width="120">
+    <img src="assets/logo-dark.png" alt="mobiDex logo" width="120">
   </picture>
 </p>
 
-<h1 align="center">mobiDEX</h1>
+<h1 align="center">mobiDex</h1>
 
 <p align="center">
   <b>A Star Citizen <code>Data.p4k</code> explorer — models, game data, audio and patch changes in one app.</b>
@@ -18,24 +18,24 @@
 </p>
 
 <p align="center">
-  <img src="assets/screenshot.png" alt="mobiDEX showing the Anvil F7C-M Hornet Heartseeker Mk II in the Models page" width="100%">
+  <img src="assets/screenshot.png" alt="mobiDex showing the Anvil F7C-M Hornet Heartseeker Mk II in the Models page" width="100%">
 </p>
 
 ---
 
 ## What it is
 
-mobiDEX opens the game archive that ships with every Star Citizen install (`Data.p4k`) and lets you look inside it. You can view ships, weapons and armour in 3D, browse every file, read the game's data in plain tables, listen to its sound effects, and see what changed between two patches.
+mobiDex opens the game archive that ships with every Star Citizen install (`Data.p4k`) and lets you look inside it. You can view ships, weapons and armour in 3D, browse every file, read the game's data in plain tables, listen to its sound effects, and see what changed between two patches.
 
 It only **reads** your game files. It never changes them, never connects to the game's servers and doesn't need the game to be running.
 
 ## Download
 
-1. Go to **[Releases](../../releases/latest)** and download the latest `mobiDEX-x.y.z.zip`.
-2. Unzip it anywhere and run **`mobiDEX.exe`**. There's no installer.
+1. Go to **[Releases](../../releases/latest)** and download the latest `mobiDex-x.y.z.zip`.
+2. Unzip it anywhere and run **`mobiDex.exe`**. There's no installer.
 3. On the start screen, pick your `Data.p4k`, usually  
    `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\Data.p4k`.  
-   mobiDEX also lists any LIVE / PTU / EPTU installs it finds and the archives you've opened before.
+   mobiDex also lists any LIVE / PTU / EPTU installs it finds and the archives you've opened before.
 
 **Needs:** Windows 10 or 11 (64-bit), a graphics card with OpenGL 3.3, and 8 GB of RAM (16 GB or more recommended for big ships with textures).
 
@@ -87,30 +87,30 @@ It only **reads** your game files. It never changes them, never connects to the 
 Open an [issue](../../issues) and include:
 - what you clicked and what happened,
 - the game version (shown at the top of the window),
-- the log file `mobiDEX.log`. Its location is shown in the status bar and under **Settings → Diagnostics**.
+- the log file `mobiDex.log`. Its location is shown in the status bar and under **Settings → Diagnostics**.
 
 ## Credits
 
-mobiDEX stands on the work of the Star Citizen data-mining community and the Rust ecosystem.
+mobiDex stands on the work of the Star Citizen data-mining community and the Rust ecosystem.
 
 | | |
 |---|---|
-| **[StarBreaker](https://github.com/diogotr7/StarBreaker)** by **Diogo Trindade** (MIT) | The core of the archive, DataCore, CryXML, DDS, Wwise audio and 3D model readers. mobiDEX uses a modified copy. Also the **StarBreaker Blender add-on**, which mobiDEX bundles and can install for you. |
-| **[Blender](https://www.blender.org)** | Not included. mobiDEX can open exports in your own copy. |
+| **[StarBreaker](https://github.com/diogotr7/StarBreaker)** by **Diogo Trindade** (MIT) | The core of the archive, DataCore, CryXML, DDS, Wwise audio and 3D model readers. mobiDex uses a modified copy. Also the **StarBreaker Blender add-on**, which mobiDex bundles and can install for you. |
+| **[Blender](https://www.blender.org)** | Not included. mobiDex can open exports in your own copy. |
 
 Each third-party component remains under its own licence and copyright.
 
 ## Legal
 
-**mobiDEX is an unofficial, fan-made tool. It is not affiliated with, endorsed, sponsored or approved by Cloud Imperium Games Corporation, Cloud Imperium Rights LLC or Roberts Space Industries Corp.** (together, "CIG").
+**mobiDex is an unofficial, fan-made tool. It is not affiliated with, endorsed, sponsored or approved by Cloud Imperium Games Corporation, Cloud Imperium Rights LLC or Roberts Space Industries Corp.** (together, "CIG").
 
-*Star Citizen®*, *Squadron 42®*, *Roberts Space Industries®* and *Cloud Imperium®* are trademarks of Cloud Imperium Rights LLC. All game content (including models, textures, audio, text and data) is © Cloud Imperium Rights LLC and Cloud Imperium Rights Ltd. mobiDEX contains **no game content**. It only reads the files of a copy of Star Citizen that you already have installed.
+*Star Citizen®*, *Squadron 42®*, *Roberts Space Industries®* and *Cloud Imperium®* are trademarks of Cloud Imperium Rights LLC. All game content (including models, textures, audio, text and data) is © Cloud Imperium Rights LLC and Cloud Imperium Rights Ltd. mobiDex contains **no game content**. It only reads the files of a copy of Star Citizen that you already have installed.
 
-- **Educational and personal use only.** mobiDEX is provided to explore and learn about the game's files.
-- **Not for commercial use.** Neither mobiDEX nor anything you export with it may be sold or used commercially. Anything you export remains CIG's property, and its use is governed by CIG's [Terms of Service](https://robertsspaceindustries.com/tos) and [End User Licence Agreement](https://robertsspaceindustries.com/eula), and CIG's fan content policy. You are responsible for following them.
+- **Educational and personal use only.** mobiDex is provided to explore and learn about the game's files.
+- **Not for commercial use.** Neither mobiDex nor anything you export with it may be sold or used commercially. Anything you export remains CIG's property, and its use is governed by CIG's [Terms of Service](https://robertsspaceindustries.com/tos) and [End User Licence Agreement](https://robertsspaceindustries.com/eula), and CIG's fan content policy. You are responsible for following them.
 - **Don't use it to cheat** or to gain an unfair advantage in the game.
-- **No warranty.** mobiDEX is provided "as is", without warranty of any kind. The author is not liable for any damage or loss arising from its use.
-- **Closed source.** mobiDEX's source code is not public. This repository hosts releases and the issue tracker only. You may not decompile, modify or redistribute mobiDEX without permission.
+- **No warranty.** mobiDex is provided "as is", without warranty of any kind. The author is not liable for any damage or loss arising from its use.
+- **Closed source.** mobiDex's source code is not public. This repository hosts releases and the issue tracker only. You may not decompile, modify or redistribute mobiDex without permission.
 
 
 ---
