@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/screenshot.png" alt="mobiDex showing the Anvil F7C-M Hornet Heartseeker Mk II in the Models page" width="100%">
+  <img src="assets/screenshot.png" alt="mobiDex showing the Anvil F7C-M Hornet Heartseeker Mk II in the Prefabs page" width="100%">
 </p>
 
 ---
