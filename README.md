@@ -97,6 +97,7 @@ mobiDex stands on the work of the Star Citizen data-mining community and the Rus
 |---|---|
 | **[StarBreaker](https://github.com/diogotr7/StarBreaker)** by **Diogo Trindade** (MIT) | The core of the archive, DataCore, CryXML, DDS, Wwise audio and 3D model readers. mobiDex uses a modified copy. Also the **StarBreaker Blender add-on**, which mobiDex bundles and can install for you. |
 | **[Blender](https://www.blender.org)** | Not included. mobiDex can open exports in your own copy. |
+| **[Claude](https://claude.ai)** by **Anthropic** | AI coding assistant used in developing mobiDex and its website. |
 
 Each third-party component remains under its own licence and copyright.
 
