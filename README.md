@@ -41,7 +41,7 @@ It only **reads** your game files. It never changes them, never connects to the 
 
 ## Features
 
-### 🚀 Models
+### 🚀 Prefabs (3D Models)
 - **Ships, ground vehicles, weapons, armour, clothing, ship components, ship weapons, gadgets, hangar flair** and more, with their in-game names, makers, roles and sizes (Snub, Small, Medium, Large, Capital…).
 - **Full assemblies:** turrets, guns, landing gear, thrusters and other attached parts, with interiors optional.
 - **Textures and materials**, including normal maps, gloss and the layered paints of ships, weapons and suits. Pick the texture size and level of detail to suit your PC.
